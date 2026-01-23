@@ -3123,6 +3123,9 @@ GameObject:
   - component: {fileID: 9164761125977419645}
   - component: {fileID: 9164761125977419646}
   - component: {fileID: 9164761125977419647}
+  - component: {fileID: 9164761125977419648}
+  - component: {fileID: 9164761125977419649}
+  - component: {fileID: 9164761125977419650}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -3149,6 +3152,7 @@ GameObject:
   - component: {fileID: 611081125535882135}
   - component: {fileID: 457712128281364308}
   - component: {fileID: 4854606309942657651}
+  - component: {fileID: 4854606309942657652}
   m_Layer: 0
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
@@ -3228,6 +3232,7 @@ GameObject:
   - component: {fileID: 1723010564262461550}
   - component: {fileID: 9092217572939084373}
   - component: {fileID: 6083041142509740567}
+  - component: {fileID: 9092217572939084374}
   m_Layer: 0
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
@@ -3292,6 +3297,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4854606309942657652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618591846343597950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1458272226}
+  _mesh: {fileID: 611081125535882135}
 --- !u!33 &5456182323705247374
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3311,6 +3330,7 @@ GameObject:
   - component: {fileID: 2423661430629551378}
   - component: {fileID: 2840007093896747338}
   - component: {fileID: 162139174481595863}
+  - component: {fileID: 5681371201252610934}
   m_Layer: 0
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
@@ -3318,6 +3338,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5681371201252610934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5681371201252610933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1457424939}
+  _mesh: {fileID: 2423661430629551378}
 --- !u!23 &6083041142509740567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3457,6 +3491,7 @@ GameObject:
   - component: {fileID: 6545625630063658752}
   - component: {fileID: 5456182323705247374}
   - component: {fileID: 8708329807927428962}
+  - component: {fileID: 8708329807927428963}
   m_Layer: 0
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
@@ -3506,6 +3541,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8708329807927428963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7925611461161926758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1880528778}
+  _mesh: {fileID: 6545625630063658752}
 --- !u!33 &9092217572939084373
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3514,6 +3563,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3040091588546422328}
   m_Mesh: {fileID: -3475840021303997981, guid: 3d210b2be9d4b9144b53828dfc2e73e3, type: 3}
+--- !u!114 &9092217572939084374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040091588546422328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2da2cdefd6a4269ad707af72143d957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider: {fileID: 1058021725}
+  _mesh: {fileID: 1723010564262461550}
 --- !u!23 &9164761125977419645
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3605,6 +3668,144 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8964106073494916162, guid: 3d210b2be9d4b9144b53828dfc2e73e3, type: 3}
+--- !u!114 &9164761125977419648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518724778263151846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3e21422e254466810369536a65b19b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _accelerationPower: 1
+  _fireDelaySec: 1
+--- !u!114 &9164761125977419649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518724778263151846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7936c83141e145379cdc9908d427b98b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wheels:
+  - {fileID: 4854606309942657652}
+  - {fileID: 5681371201252610934}
+  - {fileID: 9092217572939084374}
+  - {fileID: 8708329807927428963}
+  _skidAudioSource: {fileID: 0}
+  _transmission: {fileID: 11400000, guid: 3344e97ba98e9e2429a79c55fabe215a, type: 2}
+  _maxSteerAngle: 25
+  _maxHandbrakeTorque: 3.4028235e+38
+  _centreOfMass: {x: 0, y: 0, z: 0}
+  _downforce: 100
+  _slipLimit: 0.3
+  _reverseMult: 0.4
+  _maxSpeedFOV: 200
+  _fov: {x: 40, y: 40}
+  _debugTorque: 0
+--- !u!82 &9164761125977419650
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518724778263151846}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 64
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
