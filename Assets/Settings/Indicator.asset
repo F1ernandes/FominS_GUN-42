@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f3d7a623ad477d857fb2e28b21a585, type: 3}
+  m_Name: Indicator
+  m_EditorClassIdentifier: 
+  <Settings>k__BackingField:
+  - Mult: 1
+    Text: "\u043E\u0443"
+    Clip: {fileID: 0}
+  - Mult: 2
+    Text: "\u043E\u0445"
+    Clip: {fileID: 0}
+  - Mult: 3
+    Text: "\u043D\u0435\u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E"
+    Clip: {fileID: 0}
+  - Mult: 4
+    Text: "\u0432\u0435\u043B\u0438\u043A\u043E\u043B\u0435\u043F\u043D\u043E"
+    Clip: {fileID: 0}
+  - Mult: 5
+    Text: "\u0440\u0435\u0437\u043D\u044F"
+    Clip: {fileID: 0}
+  - Mult: 6
+    Text: "\u0443\u043D\u0438\u0447\u0442\u043E\u0436\u0435\u043D\u0438\u0435"
+    Clip: {fileID: 0}
